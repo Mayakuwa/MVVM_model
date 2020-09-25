@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidArtchitecture</string>
+    <string name="error_message">Unable to get Country name, please retry here</string>
 </resources>

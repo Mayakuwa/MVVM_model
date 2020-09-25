@@ -8,7 +8,8 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class CountriesService {
-    public static final String BASE_URL = "https://restcountries.eu/rest/v2/all";
+    public static final String BASE_URL = "https://restcountries.eu/rest/v2/";
+
 
     private CountriesApi api;
 
