@@ -50,6 +50,7 @@ public class CountriesViewModel extends ViewModel {
                         for(Country country: value) {
                             countryNames.add(country.countyName);
                         }
+                        //everytime something happen update data
                         countries.setValue(countryNames);
                         countryError.setValue(false);
                     }

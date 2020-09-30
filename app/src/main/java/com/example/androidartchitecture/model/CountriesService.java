@@ -17,6 +17,7 @@ public class CountriesService {
     public CountriesService() {
 
         // call the endpoints
+        //RetrofitはAPIから取得するデーターをオブジェクトにしてアクセスできるようにするまで面倒見てくれるHTTP clientのこと
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
